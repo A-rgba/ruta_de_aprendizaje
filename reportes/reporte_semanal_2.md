@@ -15,7 +15,13 @@ header-includes:
   \usepackage[spanish]{babel}
 
 ---
-## Nuevas ideas para el proyecto
+
+## Creación del repositorio en GitHub
+Después de elegir el proyecto de entre todas las iniciativas, se comenzó por crear el espacio de trabajo en que se desarrollará el proyecto. Este proyecto será gratuito, posiblemente de código abierto y se sustentará por donaciones y patrocinadores. El repositorio remoto está alojado en mi _GitHub_ personal y es de acceso público. Este repositorio tiene la ventaja adicional de que automáticamente tendrá registro de los cambios y modificaciones hechas al proyecto. Se tiene contemplado, además, agregar los archivos de los reportes y otros documentos dentro del repositorio. Aunque está decisión es temporal y puede cambiar.
+
+## Se plantearon nuevas ideas sobre posibles proyectos
+Después de la última clase el pasado Martes, decidí cambiar el enfoqué hacia algo más independiente de otros programas. Tendiendo esto en cuenta decidí crear nuevas propuestas más enfocadas a la materia. Estas ideas se resumen a continuación:
+
 ### Aplicación/red social para compartir escritos
 En esta aplicación se podría compartir y visualizar textos o escritos publicados por otros. Cuenta con la utilidad adicional de mediante un visor de _pdf_, poder mandar comentarios sobre errores o enfatizar mal uso del lenguaje, y en general, poder ser evaluado desde un modo más profesional por usuarios, como si fueran editores. El modelo de negocios, sería generar ingresos mediante una suscripción a un servicio premium, que ofrezca un mejor filtro para las personas que puedan mandar ediciones. La ventaja de este proyecto sería que aportaría a la sociedad permitiendo un lugar en donde una persona cualquiera, pudiera publicar su trabajo y recibir retroalimentación formal de forma gratuita y accesible.
 
