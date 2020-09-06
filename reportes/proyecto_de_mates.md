@@ -23,7 +23,7 @@ En esta sección se discutirán los proyectos candidatos a desarrollar a lo larg
 ### Herramienta didáctica para demostraciones
 Actualmente existen grandes herramientas para la divulgación de las matemáticas a nivel universidad; en mi caso, utilizo mayormente _LaTeX_ y _jupyter notebook_ como medio para presentar reportes, presentaciones y en general todo tipo de escritos (fig. 1). Sin embargo, el uso de estas herramientas no está optimizado para lo que es una parte fundamental del aprendizaje en las matemáticas, las demostraciones. 
 
-![Demostración de una propiedad de los conjuntos hecha en _jupyter notebook_](./assets/img/jupyter_1.png)
+![Demostración de una propiedad de los conjuntos hecha en _jupyter notebook_](../assets/img/jupyter_1.png)
 
 Sin embargo, esta herramienta no planea competir con las antes mencionadas, sino potenciar aquellos aspectos en las que estas flojean. Para esto, se planea desarrollar un paquete o extensión que funcione dentro del mismo programa, ya sea _pandoc_, _jupyter notebooks_ o _LaTeX_. Esto cuenta con la ventaja adicional de que las extensiones son fáciles de distribuir y tienen un gran alcance, por lo que sería un gran aporte. La herramienta funcionará con _LaTeX_ y simplemente añadirá comandos a los ya existentes.
 
