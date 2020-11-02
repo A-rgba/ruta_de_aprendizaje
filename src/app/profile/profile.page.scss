@@ -1,0 +1,29 @@
+.MainIcon {
+  position: relative;
+}
+
+.MainIcon > ion-icon{
+  font-size: 150px;
+  display: flex;
+  margin: auto;
+}
+
+.basic_info {
+  border: 1px solid #ccc !important;
+  border-radius: 8px;
+  margin: 10px 0 20px 0;
+}
+
+.basic_info > .data_container {
+  padding: 0 20px;
+}
+
+.image_button {
+  top: 0;
+  position: absolute;
+  border: 1px dashed #ccc;
+  border-radius: 50%;
+  background-color: rgba($color: #000000, $alpha: 0.15);
+  top: 55%;
+  left: 55%;
+}
