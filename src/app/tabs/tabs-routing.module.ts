@@ -37,6 +37,15 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'explore',
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('../explore/explore.module').then(m => m.ExplorePageModule)
+          }
+        ]
+      },
+      {
         path: '',
         redirectTo: '/tabs/home',
         pathMatch: 'full',

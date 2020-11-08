@@ -1,3 +1,18 @@
-.InputSection {
-  margin-bottom: 30px;
+ion-content {
+  --padding-start: 0;
+}
+
+.MainMessage {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+.MainMessage > ion-icon {
+  font-size: 150px;
+}
+
+.MainMessage > p {
+  color: silver;
 }

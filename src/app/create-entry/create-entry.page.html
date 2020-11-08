@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Create new entry</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-label>Title: </ion-label>
+      <ion-input required='true' placeholder='For example: A summer learning GitHub'></ion-input>
+  </ion-item>
+
+  <ion-item class='postDescription'>
+    <ion-textarea rows="10" placeholder="Describe your experience"></ion-textarea>
+  </ion-item>
+
+  <div class="choosen_topics_container">
+    <p>Choosen topics: </p>
+    <ion-chip>
+      <ion-label>Music</ion-label>
+      <ion-icon name="musical-notes-outline" color='primary'></ion-icon>
+    </ion-chip>
+    <ion-chip>
+      <ion-label>Economy</ion-label>
+      <ion-icon name="calculator-outline" color='primary'></ion-icon>
+    </ion-chip>
+    <ion-chip>
+      <ion-label>Ecology</ion-label>
+      <ion-icon name="leaf-outline" color='primary'></ion-icon>
+    </ion-chip>
+  </div>
+
+  <ion-item class='dedicationLvl'>
+    <ion-label>Dedication level</ion-label>
+    <ion-select value="Relaxed">
+      <ion-select-option value="relaxed">Relaxed</ion-select-option>
+      <ion-select-option value="medium">Medium</ion-select-option>
+      <ion-select-option value="intensive">Intensive</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Time duration (In hours)</ion-label>
+      <ion-input required='true' type='number'></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Money invested ($)</ion-label>
+      <ion-input type='number'></ion-input>
+  </ion-item>
+
+
+  <ion-button fill = 'outline' type = 'submit' expand = 'block'>Publish</ion-button>
+
+</ion-content>

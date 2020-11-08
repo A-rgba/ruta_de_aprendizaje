@@ -11,10 +11,22 @@ const routes: Routes = [
     redirectTo: 'tabs',
     pathMatch: 'full'
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
   // {
-  //   path: 'register',
-  //   loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  //   path: 'explore',
+  //   loadChildren: () => import('./explore/explore.module').then( m => m.ExplorePageModule)
   // },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'create-entry',
+    loadChildren: () => import('./create-entry/create-entry.module').then( m => m.CreateEntryPageModule)
+  },
   // {
   //   path: 'settings',
   //   loadChildren: () => import('./settings/settings.module').then( m => m.SettingsPageModule)

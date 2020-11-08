@@ -1,7 +1,8 @@
 {
   "name": "Ruta de aprendizaje",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }

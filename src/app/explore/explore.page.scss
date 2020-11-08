@@ -1,0 +1,36 @@
+.topic_slider {
+  height: 320px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.Description {
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.Description > h2 {
+  padding: 10px 0;
+  background-color: silver;
+}
+
+ion-slide {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+ion-card {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+ion-card-header {
+  padding-top: 0
+}
+
+.topic_icon {
+  font-size: 60px;
+}
