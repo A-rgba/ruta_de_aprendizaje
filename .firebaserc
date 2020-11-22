@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "loginionicfb-e70d3": {
+      "hosting": {
+        "app": [
+          "loginionicfb-e70d3"
+        ]
+      }
+    }
+  }
+}

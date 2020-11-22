@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Verification</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="user$ | async as user">
+  <div class = 'Description'>
+    <h2 class="">Almost there!</h2>
+    <p>We have sent you a confirmation email to <strong>{{user.email}}</strong></p>
+    <p>Please check your email inbox and the spam folder and click on the link to verify your email adress.</p>
+  </div>
+
+  <ion-button (click)= 'onSendEmail()' type='submit' color='primary' fill = 'outline'>Resend verification email</ion-button>
+
+</ion-content>

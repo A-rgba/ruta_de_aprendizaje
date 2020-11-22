@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { AuthGuard } from './shared/auth.guard';
 
 const routes: Routes = [
   {
     path: 'tabs',
-    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule)
+    loadChildren: () => import('./tabs/tabs.module').then( m => m.TabsPageModule),
+    canActivate: [AuthGuard],
   },
   {
     path: '',
@@ -26,6 +28,18 @@ const routes: Routes = [
   {
     path: 'create-entry',
     loadChildren: () => import('./create-entry/create-entry.module').then( m => m.CreateEntryPageModule)
+  },
+  {
+    path: 'admin',
+    loadChildren: () => import('./admin/admin.module').then( m => m.AdminPageModule)
+  },
+  {
+    path: 'verify-email',
+    loadChildren: () => import('./verify-email/verify-email.module').then( m => m.VerifyEmailPageModule)
+  },
+  {
+    path: 'forgot-password',
+    loadChildren: () => import('./forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
   },
   // {
   //   path: 'settings',

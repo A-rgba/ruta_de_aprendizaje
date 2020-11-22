@@ -1,33 +1,37 @@
 <ion-content>
   <div class = 'Description'>
-    <h2 class="">Crear cuenta</h2>
+    <h2 class="">Create account</h2>
     <div class = 'MainIcon'>
-      <img src="/assets/libro-electronico.png" alt="regIcon">
+      <ion-icon src='./assets/icon/register.svg'></ion-icon>
+    </div>
+    <div class="main_text">
+      <p>Share your experiences at learning with thousands of people with similar interest as you.
+      </p>
     </div>
   </div>
 
   <div class="InputSection">
     <ion-item>
-      <ion-label position = 'floating'>Nombre de usuario</ion-label>
-      <ion-input type = 'text'></ion-input>
+      <ion-label position = 'stacked'>User name</ion-label>
+      <ion-input type = 'text' #uname required></ion-input>
     </ion-item>
     <ion-item>
-      <ion-label position = 'floating'>Correo electronico</ion-label>
-      <ion-input type = 'email'></ion-input>
+      <ion-label position = 'stacked'>Email</ion-label>
+      <ion-input type = 'email' #email required></ion-input>
     </ion-item>
     <ion-item>
-      <ion-label position = 'floating'>Contraseña</ion-label>
-      <ion-input type = 'password'></ion-input>
+      <ion-label position = 'stacked'>Password</ion-label>
+      <ion-input type = 'password' #password required></ion-input>
     </ion-item>
 
     <div class="SubmitButton">
-      <ion-button size = 'large' type = 'submit'>Registrarse</ion-button>
+      <ion-button size = 'large' expand = 'block' fill = 'outline' type = 'submit' (click)= "onRegister(email, password)">Register</ion-button>
     </div>
 
 
   </div>
 
-<p class="Fs_9pt">¿Ya tienes una cuenta? <a routerLink='/login' class = 'Fs_9pt'>Inicia sesión</a></p>
+<p class="Fs_9pt">You already have an account? <a routerLink='/login' class = 'Fs_9pt'>Login</a></p>
 
 
 </ion-content>
